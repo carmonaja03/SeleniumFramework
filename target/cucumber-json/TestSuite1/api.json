@@ -3,114 +3,108 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-08T12:15:00.353Z",
+        "start_timestamp": "2021-07-08T12:31:07.508Z",
         "line": 4,
-        "name": "Open Selenium Easy website and enter a message in Single Input Field",
+        "name": "Login LinkedIn scenario",
         "description": "",
-        "id": "selenium-easy-website;open-selenium-easy-website-and-enter-a-message-in-single-input-field",
+        "id": "linkedin;login-linkedin-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 71985370000,
+              "duration": 17136857000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I open Selenium Easy website",
+            "name": "I open linkedin website",
             "match": {
-              "location": "com.jason.auto.steps.ui.SeleniumEasySteps.openSeleniumEasyWebsite()"
+              "location": "com.jason.auto.steps.ui.LinkedInSteps.openLinkedInWebsite()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "LinkedIn",
+    "description": "",
+    "id": "linkedin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ui/LinkedIn.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T12:31:24.755Z",
+        "line": 4,
+        "name": "Open Google scenario",
+        "description": "",
+        "id": "opengoogle;open-google-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2289042000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open google website",
+            "match": {
+              "location": "com.jason.auto.steps.ui.OpenGoogleSteps.iOpenGoogleWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 252913000,
+              "duration": 57744000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I click Input Forms in Navigation menu",
+            "name": "I search for github and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Input Forms",
-                  "offset": 8
+                  "val": "github",
+                  "offset": 13
                 }
               ],
-              "location": "com.jason.auto.steps.ui.SeleniumEasySteps.clickInputForms(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1170795000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click Simple Form Demo in Sub menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Simple Form Demo",
-                  "offset": 8
-                }
-              ],
-              "location": "com.jason.auto.steps.ui.SeleniumEasySteps.clickSubMenu(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 312347000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I enter message Hello World in Single Input Field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Hello World",
-                  "offset": 16
-                }
-              ],
-              "location": "com.jason.auto.steps.ui.SeleniumEasySteps.enterMessageInSingleInputField(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 49392000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate that Your Message displays Hello World",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Hello World",
-                  "offset": 38
-                }
-              ],
-              "location": "com.jason.auto.steps.ui.SeleniumEasySteps.validateThatYourMessageDisplays(java.lang.String)"
+              "location": "com.jason.auto.steps.ui.OpenGoogleSteps.searchForSomething(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@seleniumeasy"
+            "name": "@ui"
           }
         ]
       }
     ],
-    "name": "Selenium Easy website",
+    "name": "OpenGoogle",
     "description": "",
-    "id": "selenium-easy-website",
+    "id": "opengoogle",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/ui/SeleniumEasy-InputForms.feature",
+    "uri": "file:src/test/resources/ui/OpenGoogle.feature",
     "tags": [
       {
-        "name": "@seleniumeasy",
+        "name": "@ui",
         "type": "Tag",
         "location": {
           "line": 1,

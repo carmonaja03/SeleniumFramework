@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="74.029">
-    <testcase classname="Selenium Easy website" name="Open Selenium Easy website and enter a message in Single Input Field" time="73.843">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="19.811">
+    <testcase classname="LinkedIn" name="Login LinkedIn scenario" time="17.221">
         <system-out>
-            <![CDATA[Given I open Selenium Easy website..........................................passed
-When I click Input Forms in Navigation menu.................................passed
-And I click Simple Form Demo in Sub menu....................................passed
-And I enter message Hello World in Single Input Field.......................passed
-Then I validate that Your Message displays Hello World......................passed
+            <![CDATA[Given I open linkedin website...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OpenGoogle" name="Open Google scenario" time="2.351">
+        <system-out>
+            <![CDATA[Given I open google website.................................................passed
+Then I search for github and press enter....................................passed
 ]]>
         </system-out>
     </testcase>
