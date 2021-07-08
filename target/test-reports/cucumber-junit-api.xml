@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="74.029">
+    <testcase classname="Selenium Easy website" name="Open Selenium Easy website and enter a message in Single Input Field" time="73.843">
+        <system-out>
+            <![CDATA[Given I open Selenium Easy website..........................................passed
+When I click Input Forms in Navigation menu.................................passed
+And I click Simple Form Demo in Sub menu....................................passed
+And I enter message Hello World in Single Input Field.......................passed
+Then I validate that Your Message displays Hello World......................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
