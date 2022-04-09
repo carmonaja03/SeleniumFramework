@@ -1,8 +1,11 @@
 com/jason/auto/steps/api/shared/SharedApiSteps.class
 com/jason/auto/hooks/Hooks$1.class
-com/jason/auto/steps/ui/GitHubSteps.class
 com/jason/auto/runner/RunUITests.class
+com/jason/auto/runner/RunSeleniumEasyTests.class
+com/jason/auto/steps/api/project/ProjectApiSteps.class
 com/jason/auto/steps/ui/LinkedInSteps.class
 com/jason/auto/steps/api/user/UserApiSteps.class
 com/jason/auto/hooks/Hooks.class
+com/jason/auto/steps/ui/YahooFinanceSteps.class
+com/jason/auto/steps/ui/SeleniumEasySteps.class
 com/jason/auto/steps/ui/OpenGoogleSteps.class

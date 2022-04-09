@@ -79,6 +79,41 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <!-- Cluecumber -->
+        <cluecumber.version>2.8.0</cluecumber.version>
+        <cluecumber.phase>post-integration-test</cluecumber.phase>
     </properties>
+
+ <build>
+    <plugins>
+        <plugin>
+            <groupId>com.trivago.rta</groupId>
+            <artifactId>cluecumber-report-plugin</artifactId>
+            <version>${cluecumber.version}</version>
+            <executions>
+                <execution>
+                    <id>report</id>
+                    <phase>post-integration-test</phase>
+                    <goals>
+                        <goal>reporting</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <sourceJsonReportDirectory>${project.build.directory}/cucumber-report</sourceJsonReportDirectory>
+                <generatedHtmlReportDirectory>${project.build.directory}/generated-report</generatedHtmlReportDirectory>
+            </configuration>
+        </plugin>
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+         <plugin>
+
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M6</version>
+
+        </plugin>
+    </plugins>
+</build>
+
 
 </project>

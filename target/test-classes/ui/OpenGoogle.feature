@@ -1,4 +1,4 @@
-@ui
+@ui @google
 Feature: OpenGoogle
 
   Scenario: Open Google scenario

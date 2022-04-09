@@ -3,55 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-08T12:31:07.508Z",
-        "line": 4,
-        "name": "Login LinkedIn scenario",
-        "description": "",
-        "id": "linkedin;login-linkedin-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 17136857000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I open linkedin website",
-            "match": {
-              "location": "com.jason.auto.steps.ui.LinkedInSteps.openLinkedInWebsite()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@ui"
-          }
-        ]
-      }
-    ],
-    "name": "LinkedIn",
-    "description": "",
-    "id": "linkedin",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/ui/LinkedIn.feature",
-    "tags": [
-      {
-        "name": "@ui",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2021-07-08T12:31:24.755Z",
+        "start_timestamp": "2022-04-09T05:18:13.342Z",
         "line": 4,
         "name": "Open Google scenario",
         "description": "",
@@ -61,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2289042000,
+              "duration": 17800033000,
               "status": "passed"
             },
             "line": 5,
@@ -73,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 57744000,
+              "duration": 3125793000,
               "status": "passed"
             },
             "line": 6,
@@ -93,6 +45,9 @@
         "tags": [
           {
             "name": "@ui"
+          },
+          {
+            "name": "@google"
           }
         ]
       }
@@ -109,6 +64,14 @@
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@google",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
         }
       }
     ]
